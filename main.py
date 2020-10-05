@@ -18,7 +18,7 @@ def dynamodb_client_example():
     db = boto3.client("dynamodb")
     tables_resp = db.list_tables()
     print(tables_resp['TableNames'])
-    scan_resp = db.scan(TableName='Blog-mbampr2d3zallls5vtyxcolrja-dev')
+    scan_resp = db.scan(TableName=tables_resp['TableNames'][0])
     print(scan_resp['Items'])
 
 
