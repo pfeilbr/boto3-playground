@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 boto3 = "*"
 boto3-stubs = {extras = ["essential"], version = "*"}
+jupyter = "*"
 
 [requires]
 python_version = "3.8"
