@@ -17,6 +17,7 @@ make dev
 # in vscode
 # click on `main.ipynb`.  this will automatically start jupyter notebook and connect
 # ctrl+enter to run cell
+# ctrl+space for intellisense
 # see [How to use Pipenv with Jupyter and VSCode](https://towardsdatascience.com/how-to-use-pipenv-with-jupyter-and-vscode-ae0e970df486)
 
 # manually run jupyter notebook
@@ -36,4 +37,5 @@ for vscode, install [Pylance&#32;-&#32;Visual&#32;Studio&#32;Marketplace](https:
 * [Boto3 documentation](https://boto3.readthedocs.io/)
 * [boto/boto3](https://github.com/boto/boto3)
 * [boto3-stubs](https://pypi.org/project/boto3-stubs/) - for code completion
+* [Working with Jupyter Notebooks in Visual Studio Code](https://code.visualstudio.com/docs/python/jupyter-support)
 * [How to use Pipenv with Jupyter and VSCode](https://towardsdatascience.com/how-to-use-pipenv-with-jupyter-and-vscode-ae0e970df486)
