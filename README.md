@@ -2,6 +2,30 @@
 
 learn [boto3](https://github.com/boto/boto3), the Amazon Web Services (AWS) SDK for Python
 
+## Concepts
+
+**Clients** provide a low-level interface to AWS whose methods map close to 1:1 with service APIs. All service operations are supported by clients. Clients are generated from a JSON service definition file.
+
+**Resources** represent an object-oriented interface to Amazon Web Services (AWS). They provide a higher-level abstraction than the raw, low-level calls made by service clients. To use resources, you invoke the resource() method of a Session and pass in a service name:
+
+**Session** manages state about a particular configuration. By default, a session is created for you when needed. However, it's possible and recommended that in some scenarios you maintain your own session. Sessions typically store the following:
+
+* Credentials
+* AWS Region
+* Other configurations related to your profile
+
+
+**Collection** provides an iterable interface to a group of resources. A collection seamlessly handles pagination for you, making it possible to easily iterate over all items from all pages of data.
+
+
+**Paginators**
+
+Some AWS operations return results that are incomplete and require subsequent requests in order to attain the entire result set. The process of sending subsequent requests to continue where a previous request left off is called pagination.  Paginators are a feature of boto3 that act as an abstraction over the process of iterating over an entire result set of a truncated API operation.
+
+---
+
+## Developing
+
 ```sh
 # install virtual env and dependencies
 pipenv install
