@@ -6,6 +6,9 @@ learn [boto3](https://github.com/boto/boto3), the Amazon Web Services (AWS) SDK 
 # install virtual env and dependencies
 pipenv install
 
+# (optional) install additional pip package
+pipenv install <package>
+
 # activate python virtual env (optional)
 pipenv shell
 
