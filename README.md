@@ -53,6 +53,8 @@ pipenv run jupyter notebook
 # access via browser manually (auto opens via above command)
 open http://localhost:8888/tree
 
+# convert notebook to python.  generates `main_notebook.py`
+jupyter nbconvert --to script main.ipynb --output main_notebook
 ```
 
 ## Notes
